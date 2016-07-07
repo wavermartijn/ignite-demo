@@ -15,6 +15,7 @@
     </parent>
 
     <properties>
+      <java.version>1.8</java.version>
         <spring.framework.version>4.1.0.RELEASE</spring.framework.version>
         <spring.boot.version>1.2.6.RELEASE</spring.boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,6 +34,12 @@
         <groupId>org.apache.ignite</groupId>
         <artifactId>ignite-spring</artifactId>
         <version>${ignite.version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.meteogroup</groupId>
+        <artifactId>grib-library</artifactId>
+        <version>LATEST</version>
     </dependency>
     <!--<dependency>-->
         <!--<groupId>org.springframework</groupId>-->
